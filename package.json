@@ -1,0 +1,27 @@
+{
+  "name": "react-html-holder",
+  "version": "1.0.0",
+  "description": "the react component to holding the raw html and the javascript",
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "tanalab2",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
