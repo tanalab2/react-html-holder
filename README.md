@@ -2,11 +2,11 @@
 
 Storybook for React 内で、ただのHTMLを記述するために使用するヘルパー関数。
 
-## Installation
+## インストール方法
 
 yarn add https://github.com/tanalab2/react-html-holder
 
-## How to Use
+## ヘルパー関数の使い方
 
 ```
 import React from "react";
