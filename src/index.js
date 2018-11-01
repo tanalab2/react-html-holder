@@ -23,7 +23,7 @@ export const htmlStory = (
 ) => {
   const { html, onload, styles } = props;
 
-  return () => <Htmlstory innerHtml={html} onload={onload} style={styles} />;
+  return () => <HtmlHolder innerHtml={html} onload={onload} style={styles} />;
 };
 
 export default HtmlHolder;
