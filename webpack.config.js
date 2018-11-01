@@ -14,10 +14,7 @@ module.exports = {
         include: path.resolve(__dirname, "src"),
         exclude: /(node_modules|build)/,
         use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"]
-          }
+          loader: "babel-loader"
         }
       }
     ]
